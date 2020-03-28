@@ -1,9 +1,11 @@
 use unwind_aborts::unwind_aborts;
 
 #[unwind_aborts]
-fn foo() {}
+fn two() -> usize {
+    2
+}
 
 #[test]
 fn it_compiles() {
-    foo();
+    assert_eq!(two(), 2);
 }

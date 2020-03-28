@@ -3,6 +3,15 @@ name = "unwind_aborts"
 version = "0.1.0"
 authors = ["Adam Gausmann <agausmann@fastmail.com>"]
 edition = "2018"
+description = "Prevent your panics from unwinding past FFI boundaries with this one simple trick!"
+readme = "README.md"
+repository = "https://github.com/agausmann/unwind_aborts"
+license = "MIT"
+keywords = ["ffi", "panic", "unwind", "abort"]
+categories = ["development-tools::ffi"]
+
+[badges]
+maintenance = { status = "passively-maintained" }
 
 [lib]
 proc-macro = true
