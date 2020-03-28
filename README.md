@@ -2,7 +2,7 @@
 
 Prevent your panics from unwinding past FFI boundaries with this one simple trick!
 
-Designed to be used in place of [`#[unwind(aborts)]`][unwind_aborts_upstream]
+Intended to be used in place of [`#[unwind(aborts)]`][unwind_aborts_upstream]
 until it is stabilized.
 
 ## Usage
