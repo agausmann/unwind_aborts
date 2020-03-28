@@ -1,6 +1,6 @@
 [package]
 name = "unwind_aborts"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Adam Gausmann <agausmann@fastmail.com>"]
 edition = "2018"
 description = "Prevent your panics from unwinding past FFI boundaries with this one simple trick!"
